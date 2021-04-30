@@ -1,0 +1,34 @@
+[tool.briefcase]
+project_name = "Hello World"
+bundle = "com.hw"
+version = "0.0.1"
+url = ""
+license = "MIT license"
+author = ""
+author_email = ""
+
+[tool.briefcase.app.helloworld]
+formal_name = "Hello World"
+description = "My first application"
+icon = "src/helloworld/resources/helloworld"
+sources = ['src/helloworld']
+requires = [
+    'pyside2==5.13.0',]
+
+
+[tool.briefcase.app.helloworld.macOS]
+requires = []
+
+[tool.briefcase.app.helloworld.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.helloworld.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.helloworld.iOS]
+requires = []
+
+[tool.briefcase.app.helloworld.android]
+requires = []

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: helloworld
+Formal-Name: Hello World
+App-ID: com.helloworld.helloworld
+Version: 0.0.1
+Home-page: https://helloworld.com/helloworld
+Author: pll_llq
+Author-email: piiq@helloworld.com
+Summary: My first application
